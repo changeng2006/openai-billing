@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/assets/:path*", "destination": "/index.html" }
+  ],
+  "builds": [
+    {
+      "src": "checkbilling.html",
+      "use": "@vercel/static"
+    }
+  ]
+}
